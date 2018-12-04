@@ -1,0 +1,109 @@
+body{
+  font-family: Courier;
+  width: 100%;
+}
+
+p{
+  font-size: 20px;
+  weight: bold;
+}
+
+li{
+  font-size: 25px;
+  weight: bold;
+}
+
+nav{
+  position: fixed;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+/* I should somehow separate each page lol */
+
+#values{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+#intro{
+  width: 50vh;
+}
+
+#screenshot{
+  width: 434px;
+  height: 771px;
+}
+
+#bio{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#shuge{
+  height: 100vh;
+  overflow: hidden;
+}
+
+#bullets{
+  width: 60vh;
+}
+
+#timeline{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#biography{
+  justify-content: space-around;
+}
+
+#tl{
+  max-width: 100%;
+  height: auto;
+}
+
+.sec{
+  width: 400px;
+}
+
+.img{
+  width: 430px;
+  height: 290px;
+}
+
+#projects{
+  /* display:flex;
+  display-direction: column;
+  justify-content: space-around;
+  align-items: center; */
+}
+
+#categories{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#contact{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#future{
+}
+
+#ft{
+  max-width: 100%;
+  height: auto;
+}
